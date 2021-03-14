@@ -210,7 +210,15 @@ header {
 
 
 /*===========================*/
-/*Services Section*/
+/*Services
+
+.services-icon {
+    height: 12rem;
+    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
+    overflow: hidden;
+}
+ Section*/
 /*===========================*/
 .services-section {
     color: #fff;
@@ -225,11 +233,6 @@ header {
     background: #14a58c;
 }
 
-.services-icon {
-    height: 12rem;
-    margin-top: 4.5rem;
-    margin-bottom: 3.5rem;
-}
 
 /*===========================*/
 /*Team Section*/
