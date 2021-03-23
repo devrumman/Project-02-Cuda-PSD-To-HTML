@@ -583,7 +583,7 @@ background: linear-gradient(rgba(60, 11, 153, 0.09),rgb(45, 12, 150)), url(img/c
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment:fixed;
+    background-attachment: fixed;
 }
     
 .contact-section h2:after {
