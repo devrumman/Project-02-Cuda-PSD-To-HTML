@@ -1,0 +1,116 @@
+/*Tablet Layout*/
+@media only screen and (min-width:200px) and (max-width:991px) {
+    
+    .mobile-menu span{
+        display: block;
+    }
+    header {
+        height: 65vh;
+    }
+
+    html {
+        font-size: 56.5%;
+    }
+
+.logo {
+    height: 3.5rem;
+    width: auto;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    float: left;
+}
+
+    .row {
+        padding-top: 0 4rem
+    }
+ .row .main-nav{
+            display: none;
+        }  
+    .hero-text-box {
+        width: 100%;
+    }
+
+    .client-photo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .client-review {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .team-member h3 {
+        font-size: 3rem;
+    }
+
+    .span_1_of_4 {
+        width: 49.2%
+    }
+
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+
+    .col .portfolio-image {
+        width: 100%;
+        float: none;
+        text-align: center;
+        height: 23rem;
+    }
+}
+
+    /*Mobile Layout*/
+    @media only screen and (min-width:200px) and (max-width:480px) {
+        
+    .mobile-menu span{
+        display: block;
+    }
+ header {
+        height: 75vh;
+    }
+    .logo {
+      margin-top: 1rem;
+    }
+    .row {
+        padding-top: 0 4rem;
+    }
+    
+ .row .main-nav{
+            display: none;
+        }    
+        
+    .span_1_of_4 {
+        width: 100%
+    }
+
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+
+    .col .portfolio-image {
+        width: 80%;
+        float: none;
+        text-align: center;
+        height: 18rem;
+    }
+.portfolio-section p{
+        line-height: 2.5rem;}
+        
+.portfolio-section .portfolio-filter{
+            letter-spacing: -5rem;
+            line-height: 2rem;
+        }        
+        
+ h2 {
+        font-size: 2.5rem;
+    }
+ h3 {
+        font-size: 2rem;
+    }
+.footer-section li{
+        text-align: center;
+        font-size: 2px;
+    }

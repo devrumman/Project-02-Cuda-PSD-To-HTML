@@ -18,27 +18,42 @@
     <link rel="stylesheet" href="vendors/css/animated-circle.css">
     <!---- Resources Files ----->
     <link rel="stylesheet" href="resources/css/style.css">
-    <link rel="stylesheet" href="resources/css/resposive.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
 </head>
 
 <body>
 
     <!-------------------------------------- Start Header Section -------------------------------------->
-    <header>
+    <header id="home">
         <nav>
             <div class="row">
-                <a href="#">
+                <a href="#home">
                     <img src="resources/img/logo.png" alt="Cuda" class="logo" />
                 </a>
                 <ul class="main-nav">
-                    <li class="active"><a href="href+" # "">HOME</a></li>
+                    <li><a class="active" href="#home">HOME</a></li>
                     <li><a href="#service">SERVICE</a></li>
-                    <li><a href="#team" # "">TEAM</a></li>
-                    <li><a href="#skill" # "">SKILL</a></li>
-                    <li><a href="#portfolio" # "">PORTFOLIO</a></li>
-                    <li><a href="#testimonial" # "">TESTIMONIAL</a></li>  
-                    <li><a href="#contact" # "">CONTACT</a></li> 
+                    <li><a href="#team">TEAM</a></li>
+                    <li><a href="#skill">SKILL</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#testimonial">TESTIMONIAL</a></li>  
+                    <li><a href="#contact">CONTACT</a></li> 
                 </ul>
+                <div class="mobile-menu">
+                    <span onclick="openNav()">&#9776;</span>
+                    <div id="myNav" class="overlay">
+                    <a href="javascript:void()" onclick="closeNav()" class="closebtn">&times;</a>
+                    <div class="overlay-content">
+                    <a onclick="closNav()" class="active" href="#home">HOME</a>
+                    <a onclick="closNav()" href="#service">SERVICE</a>
+                    <a onclick="closNav()" href="#team">TEAM</a>
+                    <a onclick="closNav()" href="#skill">SKILL</a>
+                    <a onclick="closNav()" href="#portfolio">PORTFOLIO</a>
+                    <a onclick="closNav()" href="#testimonial">TESTIMONIAL</a> 
+                    <a onclick="closNav()" href="#contact">CONTACT</a>
+                    </div>
+                    </div>
+                </div>
             </div>
         </nav>
         <div class="row">
@@ -46,7 +61,7 @@
                 <h1><i>Hi, This is Rumman</i> <br/><br/><br/>
                 I am a Web Site Developer And WordPress Theme Developer Expert. I have Good communication skills, Responsible, Dedicated, and willing to learn new things.
                 </h1>
-                <a href="#" class="btn btn-hero">Work With Us</a>
+                <a href="#contact" class="btn btn-hero">Work With Us</a>
             </div>
         </div>
     </header>
@@ -58,7 +73,7 @@
 
 
     <!-------- Start Serrvice Section -------->
-    <section class="services-section" id="service">
+    <section class="services-section js--services-section" id="service">
         <dib class="row">
             <h2>SERVICES WE PROVIDE</h2>
             <P class="little-description">We are working with both individuals and businesses from all over the
@@ -126,7 +141,7 @@
                     <h3>Rumman Ahmed</h3>
                     <span class="role">Junior Front-End Developer</span>
                     <p>
-                        Hi, This is Rumman, I am a WordPress Theme Developer Expert. I have Good communication skills, Responsible, Dedicated, and willing to learn new things.
+                        Hi, This is Rumman, I am a WordPress Theme Developer Expert. I have Good communication skills, Responsible, Dedicated, and willing to learn.
                     </p>
                     <div class="social-link">
                         <ul>
@@ -145,7 +160,7 @@
                         <h3>Shanta Islam Rakhi</h3>
                         <span class="role">Customer Support</span>
                         <p>
-                            Also, I have handled and helped each type of customer in each type of setting. I understand that obtaining and maintaining loyal repeat business and spreading.
+                            Also, I have handled and helped each type of customer in each type of setting. I understand that obtaining and maintaining loyal repeat business .
                         </p>
                         <div class="social-link">
                             <ul>
@@ -164,7 +179,7 @@
                             <h3>Farhan Abir</h3>
                             <span class="role">Senior Front-End Developer</span>
                             <p>
-                                I am a front-end developer. Currently I am enhancing my skill in Javascript. Also I aim to exploring different opportunities in IT sectors in Bangladesh.I
+                                I am a front-end developer. Currently I am enhancing my skill in Javascript. Also I aim to exploring different opportunities in IT sectors in Bangladesh.
                             </p>
                             <div class="social-link">
                                 <ul>
@@ -248,7 +263,7 @@
                 <button type="button" data-filter="all">All</button>
                 <button type="button" data-filter=".web">Web</button>
                 <button type="button" data-filter=".graphic">Graphic</button>
-                <button type="button" data-filter=".marketing">Marketing</button>
+                <button type="button" data-filter=".marketing">Seo</button>
             </div>
         </div>
         <div class="row container">
@@ -344,7 +359,7 @@
         </P>
     </div>
     <div class="row">
-        <form action="https://formspree.io/rummanahmed1991@gmail.com" mathod="POST">
+        <form action="https://formspree.io/f/rummanahmed1991@gmail.com" method="POST">
             <div class="row">
                 <div class="col span_1_of_2">
                     <input type="text" name="Name" placeholder="Your Name *" required>
@@ -364,14 +379,28 @@
 </section>
 
  <!------------- End Contact Section --------->
+  
+  
+   <!------------- Start Footer Section --------->
+   <footer class="footer-section">
+       <ul>
+           <li><a href="href"#"">Facebook</a></li>
+           <li><a href="href"#"">Twitter</a></li>
+           <li><a href="href"#"">Google+</a></li>
+           <li><a href="href"#"">Linkdin</a></li>
+           <li><a href="href"#"">Behance</a></li>
+           <li><a href="href"#"">Dribbdle</a></li>
+           <li><a href="href"#"">GitHub</a></li>
+       </ul>
+   </footer>
    
-   
-   
+   <!------------- End Footer Section --------->
    
     <!------------- Start JS Script Section ------------->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="vendors/js/html5shiv.min.js"></script>
     <script src="vendors/css/respond.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="vendors/js/animated-circle.js"></script>
     <script src="vendors/js/mixitup.min.js"></script>
     <script src="resources/js/main.js"></script>
