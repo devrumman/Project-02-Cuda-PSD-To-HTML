@@ -83,11 +83,11 @@
         }    
         
     .span_1_of_4 {
-        width: 100%
+        width: 50%
     }
 
     .span_1_of_4:nth-child(3) {
-        margin-left: 0;
+        margin-left: 0 0;
     }
 
     .col .portfolio-image {

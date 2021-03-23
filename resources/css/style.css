@@ -244,6 +244,8 @@ header {
     margin-right: 3rem;
     margin-top: 1rem;
     display: none;
+    margin-top: 1.6rem;
+    line-height: 1rem;
 }
 .mobile-menu span:hover{
     cursor: pointer;
@@ -258,9 +260,40 @@ header {
     background: rgba(0,0,0,0.9);
     z-index: 1;
     overflow-x: hidden;
-    transition: .5s;
+    transition: 0.6s;
 }
 
+.overlay-content{
+    position: relative;
+    top: 22%;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.overlay a{
+    text-decoration: none;
+    display: block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #999;
+    padding: 2.5rem 0;
+}
+
+.overlay a:hover{
+    color: #fff;
+}
+
+.overlay .closebtn{
+    position: absolute;
+    top: 2rem;
+    right: 4.5rem;
+    font-size: 4rem
+}
+
+.sticky .mobile-menu span{
+    
+}
 /*===========================*/
 /*Services Section*/
 /*===========================*/
